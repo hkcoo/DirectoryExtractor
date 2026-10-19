@@ -1,0 +1,27 @@
+# ---- 构建产物 ----
+build/
+dist/
+*.spec.bak
+__pycache__/
+*.pyc
+*.pyo
+
+# ---- 虚拟环境 ----
+venv/
+env/
+.venv/
+.python-version
+
+# ---- WorkBuddy 内部数据（含私有笔记，切勿提交）----
+.workbuddy/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ---- 本地临时 / 调试 ----
+_screenshot.py
+debug_*.py
+probe_*.py
