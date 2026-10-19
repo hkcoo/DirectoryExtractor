@@ -1,8 +1,8 @@
 # 本地目录提取工具（PySide6）
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![Build EXE](https://github.com/Guanshanhai/DirectoryExtractor/actions/workflows/build.yml/badge.svg)](https://github.com/Guanshanhai/DirectoryExtractor/actions/workflows/build.yml)
-[![Release](https://img.shields.io/github/v/release/Guanshanhai/DirectoryExtractor?label=release)](https://github.com/Guanshanhai/DirectoryExtractor/releases)
+[![Build EXE](https://github.com/hkcoo/DirectoryExtractor/actions/workflows/build.yml/badge.svg)](https://github.com/hkcoo/DirectoryExtractor/actions/workflows/build.yml)
+[![Release](https://img.shields.io/github/v/release/hkcoo/DirectoryExtractor?label=release)](https://github.com/hkcoo/DirectoryExtractor/releases)
 
 一款用 PySide6 编写的本地目录清单提取工具：快速扫描目录、整理文件路径与文件名，并支持复制、导出为 Excel 可直接打开的 TXT/CSV。界面采用现代化单表格布局，避免左右列表选择或滚动不同步。
 
@@ -22,7 +22,7 @@
 
 ### 方式一：下载便携 EXE（推荐普通用户）
 
-前往 [Releases](https://github.com/Guanshanhai/DirectoryExtractor/releases) 下载最新的 `本地目录提取工具.exe`，双击即可运行，无需安装 Python。
+前往 [Releases](https://github.com/hkcoo/DirectoryExtractor/releases) 下载最新的 `本地目录提取工具.exe`，双击即可运行，无需安装 Python。
 
 ### 方式二：从源码运行（开发者）
 

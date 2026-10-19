@@ -55,8 +55,7 @@ from updater import UpdateChecker, UpdateInfo
 APP_TITLE = "本地目录提取工具"
 APP_VERSION = "1.0.0"
 # GitHub 仓库标识，更新检查会访问 https://api.github.com/repos/{GITHUB_REPO}/releases/latest
-# 发布开源后请把这里改成你自己的 "用户名/仓库名"。
-GITHUB_REPO = "Guanshanhai/DirectoryExtractor"
+GITHUB_REPO = "hkcoo/DirectoryExtractor"
 AUTHOR_TEXT = "作者：观山海  ·  QQ：6938070  ·  www.237654.xyz"
 
 
@@ -303,7 +302,7 @@ def dark_palette() -> QPalette:
 class MainWindow(QMainWindow):
     def __init__(self) -> None:
         super().__init__()
-        self.settings = QSettings("Guanshanhai", "DirectoryExtractor")
+        self.settings = QSettings("hkcoo", "DirectoryExtractor")
         self.model = FileTableModel()
         self.proxy = QSortFilterProxyModel(self)
         self.proxy.setSourceModel(self.model)
@@ -872,7 +871,7 @@ class MainWindow(QMainWindow):
 def main() -> int:
     app = QApplication(sys.argv)
     app.setApplicationName(APP_TITLE)
-    app.setOrganizationName("Guanshanhai")
+    app.setOrganizationName("hkcoo")
     app.setStyle("Fusion")
     window = MainWindow()
     window.show()
